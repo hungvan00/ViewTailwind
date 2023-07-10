@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="path/to/slideshow.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css ">
+</head>
+
+<body>
+    <!-- logo -->
+    <div class="flex justify-center items-center py-4">
+        <img src="img/OIP.jpg" class="h-20 right-1/2">
+        <div class="text-center">
+            <h2 class="font text-2xl text-stone-900">SỞ VĂN HÓA & THỂ THAO TỈNH NGHỆ AN</h2>
+            <h1 class="font text-2xl text-red-600 font-semibold mb-2">BẢO TÀNG XÔ VIẾT NGHỆ TĨNH</h1>
+
+        </div>
+    </div>
+
+    <!-- nav -->
+    <div class="w-full h-12">
+        <div>
+            <ul class="font h-12 flex text-center justify-center text-base uppercase leading-10 text-white space-x-7"
+            style="line-height: 48px; background: linear-gradient(90deg, rgb(214 23 46) 42%, rgb(153 27 58) 100%, rgba(0,212,255,1) 100%)  ">
+            <li class="inline-flex">
+                <img class=" mb-1 w-12" src="img/logo2.png">
+                <a class="pr-8" href="">Giới thiệu</a>
+            </li>
+            <li> <a class="pr-3" href="">Tin Tức</a></li>
+            <li> <a class="pr-3" href="">Hệ Thống Trưng Bày</a></li>
+            <li> <a class="pr-3"  href="">Sưu Tập</a></li>
+            <li> <a class="pr-3" href="">Nghiên Cứu Khoa Học</a></li>
+            <li> <a class="pr-3" href="">Tham quan</a></li>
+            <li> <a class="pr-3" href="">Công Khai Tài Chính</a></li>
+        </ul>
+        </div>
+    </div>
+    
+    <!-- chạy -->
+    <marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="3" scrolldelay="5" direction="left">
+        <div class="block-row link-slide inline-flex p-1 pb-5" style="border-bottom: 1px solid #cccc;">
+            <p class="mr-4"><a href="https://baochinhphu.vn/chu-de/giai-ngan-von-dau-tu-cong-130.htm"
+                    title="Giải ngân vốn đầu tư công" target="_blank" rel="nofollow" class="item flex items-center">
+                    <i class="fa-solid fa-square text-red-700 mr-1" style="font-size: 7px;"></i>
+                    Giải ngân vốn đầu tư công
+                </a></p>
+    
+            <p class="mr-4"><a href="https://baochinhphu.vn/chu-de/chuyen-doi-so-171.htm" title="Chuyển đổi số"
+                    target="_blank" rel="nofollow" class="item flex items-center">
+                    <i class="fa-solid fa-square text-red-700 mr-1" style="font-size: 7px;"></i>
+                    Chuyển đổi số
+                </a></p>
+    
+            <p class="mr-4"><a href="https://baochinhphu.vn/chu-de/gop-y-du-an-luat-dat-dai-sua-doi-192.htm"
+                    title="Góp ý dự án Luật Đất đai (sửa đổi)" target="_blank" rel="nofollow" class="item flex items-center">
+                    <i class="fa-solid fa-square text-red-700 mr-1" style="font-size: 7px;"></i>
+                    Góp ý dự án Luật Đất đai (sửa đổi)
+                </a></p>
+    
+            <p class="mr-4"><a
+                    href="https://baochinhphu.vn/chu-de/xay-dung-nen-kinh-te-doc-lap-tu-chu-gan-voi-hoi-nhap-quoc-te-sau-rong-194.htm"
+                    title="Xây dựng nền kinh tế độc lập tự chủ gắn với hội nhập quốc tế sâu rộng" target="_blank"
+                    rel="nofollow" class="item flex items-center">
+                    <i class="fa-solid fa-square text-red-700 mr-1" style="font-size: 7px;"></i>
+                    Xây dựng nền kinh tế độc lập tự chủ gắn với hội nhập quốc tế sâu rộng
+                </a></p>
+    
+            <p class="mr-4"><a
+                    href="https://baochinhphu.vn/chu-de/khan-truong-nghiem-tuc-trien-khai-nghi-quyet-01-2023-nq-cp-va-chi-thi-03-ct-ttg-183.htm"
+                    title="Khẩn trương, nghiêm túc triển khai Nghị quyết 01/2023/NQ-CP và Chỉ thị 03/CT-TTg"
+                    target="_blank" rel="nofollow" class="item flex items-center">
+                    <i class="fa-solid fa-square text-red-700 mr-1" style="font-size: 7px;"></i>
+                    Khẩn trương, nghiêm túc triển khai Nghị quyết 01/2023/NQ-CP và Chỉ thị 03/CT-TTg
+                </a></p>
+        </div>
+    </marquee>
+    
+
+
+    <!-- main -->
+    <div class="container mx-auto" style="width: 1200px; ">
+        <div class="grid grid-cols-12 mx-auto ">
+            <div class=" col-span-6 text-center">
+                <h2 class="font text-justify mb-3 font-bold text-3xl">Trưng bày lưu động, nói chuyển truyền thống nhân
+                    kỉ
+                    niệm 133 năm ngày
+                    sinh của chủ tịch Hồ Chí Minh tại trường THCS Bạc Liêu, huyện Yên Thành</h2>
+                <img class="w-full h-80 mb-4" style="object-fit: cover; border: 1px solid #eeeeee;"
+                    src="img/bạch liêu3.jpg">
+
+                <div>
+                    <p class=" mb-4 text-justify" style="font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    color: #3b4e68;">Hòa chung trong không
+                        khí cả
+                        nước chào mừng kỷ niệm 133 năm ngày sinh Chủ tịch Hồ
+                        Chí Minh (19/5/1890 - 19/5/2023), Bảo tàng Xô viết
+                        Nghệ Tĩnh phối hợp với trường THCS Bạch Liêu, huyện
+                        Yên Thành tổ chức nhiều hoạt động thiết thực như
+                        trưng bày lưu
+                        động và nói chuyện truyền thống cho giáo viên, học
+                        sinh của trường trường THCS Bạch Liêu đã nêu gương cho toàn thể tập thể cũng như một số. ..</p>
+                </div>
+
+                <div>
+                    
+                    <p class="font-normal text-base leading-norma pl-5 mb-2" style="font-family: Roboto; color: rgb(61, 78, 111);
+                    text-align: justify;"><i class="fa-solid fa-square text-xs" style="font-size: 7px;"></i>
+                        Lan tỏa Tấm gương đạo đức bình dị mà cao quý của Chủ tịch Hồ Chí Minh trên quê hương Hà Tĩnh
+                    </p>
+
+                    <p class="font-normal text-base leading-norma pl-5" style="font-family: Roboto; color: rgb(61, 78, 111);
+                    text-align: justify;"><i class="fa-solid fa-square text-xs" style="font-size: 7px;"></i>
+                        Bảo tàng Xô Viết Nghệ Tĩnh tổ chức chuyến sưu tầm
+                        tài liệu, hiện vật tại huyện Đô Lương, tỉnh Nghệ An
+                    </p>
+                </div>
+            </div>
+
+            <div class="font col-span-3 text-center justify-between p-2 font-bold bg-white ml-7 border-l border-r border-gray-200 border-t-2 "
+                style="border-top: 3px solid red;">
+                <div class="pb-8 ml-5 border-b border-gray-200">
+                    <p class="text-justify text-base" style="color: #031739;">
+                        <i class="fa-solid fa-square text-red-700 "style="font-size: 7px;"></i>
+                        Hoạt động kỷ niệm 92 năm thành lập Đoàn TNCS Hồ Chí Minh(26/3/1931-26/3/2023) và tại trường THCS
+                        Lý Tự Trọng, Xã Đặng Sơn, Huyện Đô Lương
+                    </p>
+                </div>
+
+                <div class="pb-8 ml-5 border-b border-gray-200">
+                    <p class="text-justify">
+                        <i class="fa-solid fa-square text-red-700 "style="font-size: 7px;"></i>
+                        Lãnh đạo tỉnh Nghệ An dâng hoa, dâng hương Kỷ niệm 92 năm ngày Xô Viết Nghệ Tĩnh 12/9/1930 –
+                        12/9/2022
+                    </p>
+                </div>
+
+                <div class="pb-8 ml-5 border-b border-gray-200">
+                    <p class="text-justify">
+                        <i class="fa-solid fa-square text-red-700 "style="font-size: 7px;"></i>
+                        Lãnh đạo tỉnh Nghệ An dâng hoa, dâng hương Kỷ niệm 92 năm ngày Xô Viết Nghệ Tĩnh 12/9/1930 –
+                        12/9/2022
+                    </p>
+                </div>
+
+                <div class="pb-8 ml-5 border-b border-gray-200">
+                    <p class="text-justify">
+                        <i class="fa-solid fa-square text-red-700 "style="font-size: 7px;"></i>
+                        Lãnh đạo tỉnh Nghệ An dâng hoa, dâng hương Kỷ niệm 92 năm ngày Xô Viết Nghệ Tĩnh 12/9/1930 –
+                        12/9/2022
+                    </p>
+                </div>
+
+                <div class="ml-5 pb-20">
+                    <p class="text-justify">
+                        <i class="fa-solid fa-square text-red-700 "style="font-size: 7px;"></i>
+                        Lãnh đạo tỉnh Nghệ An dâng hoa, dâng hương Kỷ niệm 92 năm ngày Xô Viết Nghệ Tĩnh 12/9/1930 –
+                        12/9/2022
+                    </p>
+                </div>
+
+                <div></div>
+            </div>
+
+
+            <div class="col-span-3 text-white border:1px solid">
+
+
+                <div class="col-span-3">
+                    <div class="flex flex-col items-center">
+                        <img class="pb-3 ml-5 rounded h-52" src="img/van than can vuong.jpg" alt="">
+                        <span class="text-red-500 text-2xl font-bold mb-2">Trưng bày online</span>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <img class="mb-3 ml-5 rounded-md h-52" src="img/trung-bay-online.jpg" alt="">
+                        <span
+                            class="font-medium text-white text-lg flex justify-center items-center bg-red-500 border border-red-500 rounded-md w-36 h-8 mb-2">Tham
+                            quan thêm</span>
+                    </div>
+
+
+                    <div class="flex flex-col items-center">
+                        <img class="ml-5 rounded-md h-52" src="img/van than can vuong.jpg" alt="">
+                        <span
+                            class="text-white text-sm flex justify-center items-center bg-red-500 border border-red-500 rounded-md w-24 h-8">bảo
+                            tàng ảo</span>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- xem thêm -->
+        <div class="grid grid-cols-12 pb-12" style="border-bottom: 1px solid #DDDD;">
+            <div class="col-span-9" style="background: rgb(249, 249, 249);border: 1px solid #DDDDDD;">
+                <p class="pb-4 text-center">Xem Thêm</p>
+
+            </div>
+            <div class="col-span-3">
+
+            </div>
+        </div>
+
+        <!--doanh nhân cách mạng  -->
+        <h2 class="text-center font-medium text-red-600 pb-4 uppercase">Doanh nhân cách mạng</h2>
+        <div class="grid grid-cols-12 pb-8">
+            <!-- 1 -->
+            <div class="col-span-3 flex items-center" style="border-bottom: 1px solid #DDDDDD;">
+                <div>
+                    <p class="font mb-1 text-sm leading-4 mt-1 text-center ml-7" style="color: rgb(98, 116, 141);">Đồng
+                        chí
+                    </p>
+                    <h2 class="mb-2 font-bold text-base leading-5 " style="color:rgb(24, 41, 64)">Đặng Chanh</h2>
+                </div>
+                <img src="img/dang-chanh-ky.jpg" class="w-28 h-28 ml-2">
+            </div>
+
+            <!-- 2 -->
+            <div class="col-span-3 flex items-center" style="border-bottom: 1px solid #DDDDDD;">
+                <div>
+                    <p class="font mb-1 text-sm leading-4 mt-1 text-center ml-7" style="color: rgb(98, 116, 141);">Đồng
+                        chí
+                    </p>
+                    <h2 class="mb-2 font-bold text-base leading-5 " style="color:rgb(24, 41, 64)">Nguyễn Tấn</h2>
+                </div>
+                <img src="img/ton-gia-tinh.jpg" class="w-28 h-28 ml-2">
+            </div>
+            <!-- 3 -->
+            <div class="col-span-3 flex items-center" style="border-bottom: 1px solid #DDDDDD;">
+                <div>
+                    <p class="font mb-1 text-sm leading-4 mt-1 text-center ml-7" style="color: rgb(98, 116, 141);">Đồng
+                        chí
+                    </p>
+                    <h2 class="mb-2 font-bold text-base leading-5 " style="color:rgb(24, 41, 64)">Trọng Ân</h2>
+                </div>
+                <img src="img/trongan.jpg" class="w-28 h-28 ml-2">
+            </div>
+            <!-- 4 -->
+            <div class="col-span-3 flex items-center" style="border-bottom: 1px solid #DDDDDD;">
+                <div>
+                    <p class="font mb-1 text-sm leading-4 mt-1 text-center" style="color: rgb(98, 116, 141);">Đồng chí
+                    </p>
+                    <h2 class="mb-2 font-bold text-base leading-5 " style="color:rgb(24, 41, 64)">Tôn Gia Tinh</h2>
+                </div>
+                <img src="img/giatinh.jpg" class="w-28 h-28 ml-2">
+            </div>
+            <!-- hết -->
+        </div>
+
+        <!-- bảo tàng -->
+        <div class="grid grid-cols-12 space-x-6">
+            <!-- Hoạt động bảo tàng -->
+            <div class="col-span-6 mb-4 pt-3 pr-3 border-b-1 border-gray-300 rounded-sm"
+                style="border-top: 2px solid red;">
+                <h2 class="pb-4 font-semibold uppercase text-lg">Hoạt động bảo tàng</h2>
+                <div class="grid grid-cols-2 gap-4 items-center">
+                    <div>
+                        <img src="img/baotang.jpg" class="w-72 h-44">
+                    </div>
+                    <div>
+                        <h3 class="text-xl" style="font-family: Roboto; color: rgb(3, 23, 57);">Chuyên đề: Toạ đàm kỷ
+                            niệm 75 năm Chi bộ Đảng Môn Sơn - huyện
+                            Con Cuông</h3>
+                        <p class="" style="font-family: Roboto; color: rgb(59, 78, 104);">Ngục Kon Tum - nơi nuôi dưỡng
+                            tinh thần thép của Tù
+                            chính trị trong phong trào Xô Viết Nghệ
+                            Tĩnh</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tin trong nước -->
+            <div class="col-span-6 mb-4 pt-3 pr-3 border-b border-gray-300" style="border-top: 2px solid red;">
+                <h2 class="pb-4 font-semibold uppercase text-lg">tin trong nước</h2>
+                <div class="grid grid-cols-2 gap-4 items-center pb-5">
+                    <div>
+                        <img src="img/OIP (6).jpg" class="w-72 h-44">
+                    </div>
+                    <div>
+                        <h3 class="text-xl" style="font-family: Roboto; color: rgb(3, 23, 57);"> Giao lưu văn hóa kỷ
+                            niệm 88 năm ngày Xô viết
+                            Nghệ Tĩnh 115
+                            năm ngày sinh đồng chí Lê Xuân Đào </h3>
+                        <p class="" style="font-family: Roboto; color: rgb(59, 78, 104);">Một số hoạt động kỷ niệm 88
+                            năm ngày Xô Viết Nghệ
+                            Tĩnh (12/9/1930 12/9/2018)</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- chuyên đề -->
+        <div class="grid grid-cols-12">
+            <div class="col-span-6 inline-flex flex-col ml-5 pb-12">
+                <!-- 1 -->
+                <div class="flex items-center">
+                    <span class="text-sm font-normal pr-2 text-slate-600">18:06</span>
+                    <p class="pl-3 p-0 not-italic inline-flex font-normal text-base leading-5 border-l border-gray-200"
+                        style="
+                        font-family: Roboto;
+                        color: #182940;">
+                        Bảo tàng XVNT với công tác tuyên truyền, giáo dục truyền thống cách mạng
+                    </p>
+                </div>
+                <!-- 2 -->
+                <div class="flex items-center mt-2">
+                    <span class="text-sm font-normal pr-2 text-slate-600">18:06</span>
+                    <p class="pl-3 p-0 not-italic inline-flex font-normal text-base leading-5 border-l border-gray-200"
+                        style="
+                        font-family: Roboto;
+                        color: #182940;">
+                        Chuyên đề: 65 năm Xô Viết Nghệ Tĩnh
+                    </p>
+                </div>
+
+                <!-- 3 -->
+                <div class="flex items-center mt-2">
+                    <span class="text-sm font-normal pr-2 text-slate-600">18:06</span>
+                    <p class="pl-3 p-0 not-italic inline-flex font-normal text-base leading-5 border-l border-gray-200"
+                        style="font-family: Roboto;
+                        color: #182940;">
+                        Công tác chỉnh lý trưng bày Bảo tàng Xô Viết Nghệ Tĩnh trong 40 năm
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col-span-6 inline-flex flex-col ml-5 pb-12">
+                <!-- 1 -->
+                <div class="flex items-center">
+                    <span class="text-sm font-normal pr-2 text-slate-600">18:06</span>
+                    <p class="pl-3 p-0 not-italic inline-flex font-normal text-base leading-5 border-l border-gray-200"
+                        style="font-family: Roboto;
+                        color: #182940;">
+                        Bảo tàng Xô Viết Nghệ Tĩnh – Điểm du lịch địa
+                        phương, những nét riêng trong hệ thống Bảo tàng
+                        Việt Nam
+                    </p>
+                </div>
+                <!-- 2 -->
+                <div class="flex items-center mt-2">
+                    <span class="text-sm font-normal pr-2 text-slate-600">18:06</span>
+                    <p class="pl-3 p-0 not-italic inline-flex font-normal text-base leading-5 border-l border-gray-200"
+                        style="font-family: Roboto;
+                        color: #182940;">
+                        Tin hoạt động: Trưng bày chuyên đề phục vụ Đại hội
+                        thi đua Quyết thắng lực lượng vũ trang Nghệ An giai
+                        đoạn 2013-2018
+                    </p>
+                </div>
+
+                <!-- 3 -->
+                <div class="flex items-center mt-2">
+                    <span class="text-sm font-normal pr-2 text-slate-600">18:06</span>
+                    <p class="pl-3 p-0 not-italic inline-flex font-normal text-base leading-5 border-l border-gray-200"
+                        style="
+                            font-family: Roboto; color: #182940;">
+                        Tin hoạt động:Hoạt động trưng bày phục vụ các đơn vị
+                        thuộc Sư đoàn 324, Quân khu IV
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ảnh logo -->
+        <div class="grid grid-cols-12 mb-5">
+            <div class="col-span-6 flex items-center">
+                <img class="w-full h-20 pr-5 object-cover" src="img/pl3.jpg" alt="">
+            </div>
+
+            <div class="col-span-6 flex items-center ml-5">
+                <img class="w-full h-20 object-cover" src="img/pl2.jpg" alt="">
+            </div>
+        </div>
+        <div>
+            <img src="img/anhl_b.jpg" class="h-96 m-auto" style="width: 100%!important;">
+        </div>
+
+        <!-- trưng bày -->
+
+        <div class="grid grid-cols-12 space-x-6">
+            <!-- Hoạt động bảo tàng -->
+            <div class="col-span-6 mb-4 pt-3 pr-3 border-b border-gray-200 rounded-t-md">
+                <h2 class="pb-4 font-medium uppercase text-sm">Các phòng trưng bày</h2>
+                <div class="grid grid-cols-2 gap-4 items-center">
+                    <div>
+                        <img src="img/trungbatys.jpg" class="w-72 h-44">
+                    </div>
+                    <div>
+                        <h3 class="text-xl" style="font-family: Roboto; color: rgb(3, 23, 57);">
+                            Thay đổi quy định lắp đặt biển báo hạn chế trọng lượng xe qua cầu đường bộ
+                        </h3>
+
+                        <p class="" style="font-family: Roboto; color: rgb(59, 78, 104);">
+                            Nghệ Tĩnh là mảnh đất giàu tài nguyên, nhân lực dồi dào và thuận lợi về giao thông. Vì vậy,
+                            khi đặt chân đến Việt Nam, thực dân Pháp đã nghĩ ngay đến việc đánh chiếm Nghệ Tĩnh
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--SƯU TẬP HIỆN VẬT -->
+            <div class="col-span-6 mb-4 pt-3 pr-3 border-b border-gray-200 rounded-t-md">
+                <h2 class="pb-4 font-medium uppercase text-sm">SƯU TẬP HIỆN VẬT
+                </h2>
+                <div class="grid grid-cols-2 gap-4 items-center">
+                    <div>
+                        <img src="img/hienvat.jpg" class="w-72 h-44">
+                    </div>
+                    <div>
+                        <h3 class="text-xl" style="font-family: Roboto; color: rgb(3, 23, 57);">
+                            Bổ sung điều kiện doanh nghiệp được nhận chuyển nhượng phần vốn góp tại ngân hàng liên doanh
+                        </h3>
+
+                        <p class="" style="font-family: Roboto; color: rgb(59, 78, 104);">
+                            (Chinhphu.vn) - Ngân Hàng Nhà Nước (NHNN) đang dự thảo Thông tư sửa đổi, bổ sung một số điều
+                            của...
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!-- chuyên đề -->
+        <div class="grid grid-cols-12" style="border-bottom: 3px solid red;">
+            <div class="col-span-6 inline-flex flex-col" style="padding-bottom: 50px;">
+                <!-- 1 -->
+                <div class="flex items-center">
+                    <span class="text-sm font-normal pr-2 text-slate-600">18:06</span>
+                    <p class="pl-3 p-0 not-italic inline-flex font-normal text-base leading-5 border-l border-gray-200"
+                        style="
+                        font-family: Roboto;
+                        color: #182940;">
+                        xử lý rủi ro hoạt động cho Vay Quỹ Đổi mới cộng nghệ quốc gia
+                    </p>
+                </div>
+
+                <div class="flex items-center mt-2">
+                    <span class="text-sm font-normal pr-2 text-slate-600">18:06</span>
+                    <p class="pl-3 p-0 not-italic inline-flex font-normal text-base leading-5 border-l border-gray-200"
+                        style="
+                        font-family: Roboto;
+                        color: #182940;">
+                        Quy định về phối hợp thông báo hoặc giữ, cung cấp thông tin, tài liệu liên quan đến người phạm
+                        tội
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col-span-6 inline-flex flex-col ml-5 pb-12">
+                <!-- 1 -->
+                <div class="flex items-center">
+                    <span class="text-sm font-normal pr-2 text-slate-600">18:06</span>
+                    <p class="pl-3 p-0 not-italic inline-flex font-normal text-base leading-5 border-l border-gray-200"
+                        style="
+                        font-family: Roboto;
+                        color: #182940;">
+                        Đề xuất thu phí khai thác, sự dụng tài liệu chất địa Khoáng Sản
+                    </p>
+                </div>
+
+                <div class="flex items-center mt-2">
+                    <span class="text-sm font-normal pr-2 text-slate-600">18:06</span>
+                    <p class="pl-3 p-0 not-italic inline-flex font-normal text-base leading-5 border-l border-gray-200"
+                        style="
+                        font-family: Roboto;
+                        color: #182940;">
+                        Đề xuất quy định xác định giá dịch vụ lĩnh vực quản lý, bảo trì kết cấu hạ tầng đường sắt
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- liên kết website -->
+        <h1 class="font mb-5 text-xl uppercase font-semibold">Liên kết website</h1>
+        <div class="grid grid-cols-12 space-x-6 mb-5">
+            <div class="col-span-4" style="display: flex;
+                            align-items: center;
+                            padding: 12px 16px;
+                            background: #F6F6F6;
+                            border-top: 1px solid #EEEEEE;
+                            border-bottom: 1px solid #C3D0E0;">
+                <i class="fa-solid fa-business-time"></i>
+                <span class="font ml-5 text-xl font-medium">Sở du lịch Nghệ An</span>
+            </div>
+
+            <div class="col-span-4" style="display: flex;
+                            align-items: center;
+                            padding: 12px 16px;
+                            background: #F6F6F6;
+                            border-top: 1px solid #EEEEEE;
+                            border-bottom: 1px solid #C3D0E0;">
+                <i class="fa-solid fa-business-time"></i>
+                <span class="font ml-5 text-xl font-medium">bảo tàng quân đội việt nam</span>
+            </div>
+
+            <div class="col-span-4" style="display: flex;
+                            align-items: center;
+                            padding: 12px 16px;
+                            background: #F6F6F6;
+                            border-top: 1px solid #EEEEEE;
+                            border-bottom: 1px solid #C3D0E0;">
+                <i class="fa-solid fa-business-time"></i>
+                <span class="font ml-5 text-xl font-medium">viện bảo tàng cách mạng việt nam </span>
+            </div>
+        </div>
+        <style>
+            .font {
+                font-family: Merriweather;
+            }
+        </style>
+    </div>
+
+
+    <!-- footer -->
+   <div class="" style="background-color: #cf2228;">
+    <div class="grid grid-cols-12 m-auto text-center" style="width: 1200px;
+                    text-align: justify;">
+   <div class="font col-span-6 font-medium pb-10 text-white">
+       <div class="flex justify-center items-center py-4 pb-8">
+          
+       </div>
+       <h2 class=" text-xl pb-1">Số 10, đường Đào Tấn, thành phố Vinh, tỉnh Nghệ An</h2>
+       <h2 class="text-xl pb-1">Điện thoại: Văn phòng: 080 43162; Fax: 080.48924</h2>
+       <h2 class="text-xl pb-1">Email: huyentrang20385@gmail.com</h2>
+
+   </div>
+
+   <div class="font col-span-6 inline-flex pt-8 gap-12 pl-28" >
+
+
+       <div class="text-white text-xs text-center">
+           <i class="fa-solid fa-envelope text-3xl pb-2"></i>
+           <p class="text-lg font-medium">Giới thiệu <br>
+               Bảo tàng Xô Viết <br>Nghệ Tĩnh
+           </p>
+       </div>
+
+
+       <div class="text-white text-xs text-center">
+           <i class="fa-solid fa-at text-3xl pb-2"></i>
+           <p class="text-lg font-medium ">Thư điện tử
+           </p>
+       </div>
+
+
+       <div class="text-white color text-xs text-center">
+           <i class="fa-solid fa-envelope text-3xl pb-2"></i>
+           <p class="text-lg font-medium ">liên hệ
+           </p>
+
+       </div>
+
+       <div class="text-white text-xs text-center">
+           <i class="fa-solid fa-diagram-predecessor text-3xl pb-2"></i>
+           <p class="color text-lg font-medium">
+               sơ đồ <br> bảo tàng
+           </p>
+       </div>
+   </div>
+
+</div>
+   </div>
+
+
+
+</body>
+
+</html>
